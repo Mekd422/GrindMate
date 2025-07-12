@@ -8,6 +8,6 @@ Feel free to fork, star ⭐, or contribute once it’s open to the public.
 
 ## 📣 Stay Motivated
 
-> _“Small steps every day lead to big changes.”_
+> _“Your dev grind, visualized.”_
 
 Let’s build something that keeps us all growing — together. 🌱
