@@ -1,4 +1,4 @@
-# 🚀 GrindMate – Cooking Something Great 👨‍🍳🔥
+# 🚀 GrindMate – Cooking Something Great 👩‍🍳🔥
 
 ## 👥 Want to Join or Watch?
 
