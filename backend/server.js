@@ -4,6 +4,8 @@ const dotenv = require('dotenv');
 const cors = require('cors');
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/auth');
+const logRoutes = require('./routes/log');
+const authMiddleware = require('./middleware/authMiddleware');
 
 dotenv.config();
 connectDB(); // connect to MongoDB
@@ -14,6 +16,8 @@ app.use(express.json());
 
 // routes
 app.use('/api/auth', authRoutes);
+app.use('/api/log', logRoutes);
+app.use('/api/leaderboard',logRoutes )
 
 
 
