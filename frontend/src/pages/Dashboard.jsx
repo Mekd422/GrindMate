@@ -37,7 +37,7 @@ export const Dashboard = () => {
       setAlertMsg(res.data.alertMsg);
       setStreak(res.data.streak);
     } catch (error) {
-      setAlertMsg('⛔ Failed to log time.')
+      setAlertMsg(error.message || 'An error occurred while logging your progress.');
     }
   };
 
